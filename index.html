@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Practice</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<h1 id="show"></h1>
+	<h1>Challenge 1: Age in days.</h1>
+	<button onclick="fun()">Click Me</button>
+	<button onclick="reset()">Reset</button>
+	<div style="width: 10%; padding:10px; border:1px solid black">
+		<p id="div"></p>
+	</div>
+
+	<h1>Challenge 2: image Generator.</h1>
+	<button id="genarator" onclick="pic()">Generate</button>
+	<div id="cat" class="container">
+		
+	</div>
+	<h1>Challenge 3: Rock, Paper, Secissors Game.</h1>
+	<div id="container3" class="container2">
+		<img id="rock" src="image/rock.png" onclick="rps(this)">
+		<img id="paper" src="image/paper.jpg" onclick="rps(this)">
+		<img id="scissors" src="image/srs.png" onclick="rps(this)">
+	</div>
+
+	<h1>Challenge 4: Change the buttons color.</h1>
+	<select onchange="btncolor(this)">
+		<option value="random">random</option>
+		<option value="red">Red</option>
+		<option value="green">Green</option>
+		<option value="blue">Blue</option>
+		<option value="reset">Reset</option>
+	</select>
+	<div class="container4" >
+		<button class="red">RedBTN</button>
+		<button class="green">GreenBTN</button>
+		<button class="yellow">YellowBTN</button>
+		<button class="blue">BlueBTN</button>
+	</div>
+
+	<h1>Challenge 5: Blackjack Game</h1>
+	<h3 id="message">Let's Play</h3>
+	<div id="game_box" class="container5">
+		<div id="your_box" class="box">
+			<h2 style="width: 100%; text-align: center;">You:<span id="you">0</span></h2>
+		</div>
+		<div id="dealer_box" class="box">
+			<h2 style="width: 100%; text-align: center;">Dealer:<span id="dealer">0</span></h2>
+		</div>
+	</div>
+	<div id="buttons" class="btn">
+		<button id="hit_btn">Hit</button>
+		<button id="stand_btn">Stand</button>
+		<button id="dealer_btn">Dealer</button>
+	</div>
+	<div id="tbl" class="table">
+		<center><table>
+			<tr>
+				<th>Wins</th>
+				<th>Losses</th>
+				<th>Draws</th>
+			</tr>
+			<tr>
+				<td><span id="wins">0</span></td>
+				<td><span id="loss">0</span></td>
+				<td><span id="drew">0</span></td>
+			</tr>
+		</table></center>
+	</div>
+
+
+<script src="java.js"></script>
+</body>
+</html>

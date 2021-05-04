@@ -1,0 +1,114 @@
+.container, .container2, .container4,{
+	border:1px solid black;
+	width: 75%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.container img{
+	width: 20%;
+	padding:10px;
+	cursor: pointer;
+}
+.container img:hover{
+	box-shadow: 0 5px 15px rgba(1,1,5,2);
+}
+.container2 img{
+	width: 20%;
+	padding:10px;
+	cursor: pointer;
+}
+.container2 img:hover{
+	box-shadow: 0 5px 15px rgba(1,1,5,2);
+}
+.container4 button{
+	margin:10px 0;
+	padding: 10px 15px;
+	border-radius: 8px;
+	border:none;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+}
+.container4 .red{
+	background-color: red;
+}
+.container4 .green{
+	background-color: green;
+}
+.container4 .yellow{
+	background-color: yellow;
+}
+.container4 .blue{
+	background-color: blue;
+}
+.container4 button:hover{
+	background-color: black;
+}
+
+/*Challenge 5 : Blackjack Game*/
+.container5{
+	border:1px solid black;
+	width: 75%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-color: #130f40;
+}
+.container5 .box{
+	flex: 1;
+	color: white;
+	border:1px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	height: 400px;
+	padding:10px;
+}
+.box img{
+	width: 25%;
+	height: 150px;
+}
+.btn{
+	border:1px solid black;
+	width: 75%;
+	text-align: center;
+	padding:20px 0;
+	background-color: #574b90;
+}
+.btn button{
+	padding: 10px 20px;
+	text-transform: uppercase;
+	margin-left: 10px;
+	color: white;
+	background-color: #b71540;
+	font-weight: bold;
+	border-radius: 8px;
+	border:none;
+	cursor: pointer;
+}
+.btn button:hover{
+	background-color: #eb4d4b;
+}
+.table{
+	width: 75%;
+	border:1px solid black;
+	padding:10px 0;
+	background-color: #6D214F;
+}
+table tr th,td{
+	font-weight: bold;
+	text-transform: uppercase;
+	border:1px solid black;
+	text-align: center;
+	padding: 10px;
+	background-color: white;
+}
+
+h3{
+	width: 75%;
+	border:1px solid black;
+	padding:15px 0;
+	text-align: center;
+	font-size: 25px;
+}
